@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "522983040878",
+    "project_id": "devmob-supportclient-db5d7",
+    "storage_bucket": "devmob-supportclient-db5d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522983040878:android:535cb7c25a15655f09837f",
+        "android_client_info": {
+          "package_name": "com.example.tickets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl09GFsG_RqI8HZSW-0h4ay62mIVUN8lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
