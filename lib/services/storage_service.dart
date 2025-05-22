@@ -148,9 +148,9 @@ class StorageService {
   }  // Return a fallback image URL - these are local assets
   String _getFallbackImageUrl() {
     final placeholders = [
-      'asset://assets/images/placeholder_unavailable.png',
-      'asset://assets/images/placeholder_failed.png',
-      'asset://assets/images/placeholder_retry.png'
+      'asset://assets/images/no_image.png',
+      'asset://assets/images/error_image.png',
+      'asset://assets/images/retry_image.png'
     ];
     return placeholders[Random().nextInt(placeholders.length)];
   }
@@ -236,3 +236,4 @@ class TimeoutException implements Exception {
   @override
   String toString() => 'TimeoutException: $message';
 }
+

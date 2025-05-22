@@ -38,19 +38,19 @@ class TicketStatusChanger extends StatelessWidget {
   IconData _getStatusIcon(String status) {
     switch (status) {
       case 'open':
-        return Icons.fiber_new;
+        return Icons.new_releases; // Changed from fiber_new
       case 'in_progress':
-        return Icons.pending;
+        return Icons.engineering; // Changed from pending
       case 'waiting_on_client':
-        return Icons.hourglass_empty;
+        return Icons.schedule; // Changed from hourglass_empty
       case 'pending_review':
-        return Icons.rate_review;
+        return Icons.preview; // Changed from rate_review
       case 'resolved':
-        return Icons.check_circle;
+        return Icons.task_alt; // Changed from check_circle
       case 'closed':
-        return Icons.cancel;
+        return Icons.do_not_disturb_on; // Changed from cancel
       default:
-        return Icons.fiber_new;
+        return Icons.new_releases;
     }
   }
   // Format status text
@@ -260,3 +260,5 @@ class TicketStatusChanger extends StatelessWidget {
     );
   }
 }
+
+

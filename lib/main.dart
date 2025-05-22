@@ -56,16 +56,16 @@ class MyApp extends StatelessWidget {
                   theme: ThemeData(
                     useMaterial3: true,
                     colorScheme: ColorScheme.fromSeed(
-                      seedColor: const Color(0xFF6200EA), // Deep purple
+                      seedColor: const Color(0xFF4CAF50), // Changed to green
                       brightness: Brightness.light,
-                      primary: const Color(0xFF6200EA),
+                      primary: const Color(0xFF4CAF50), // Changed to green
                       onPrimary: Colors.white,
-                      secondary: const Color(0xFFFFD600), // Bright yellow
+                      secondary: const Color(0xFFFF9800), // Changed to orange
                       onSecondary: Colors.black,
-                      tertiary: const Color(0xFF00B0FF), // Light blue
+                      tertiary: const Color(0xFF2196F3), // Changed to blue
                       surface: const Color(0xFFFAFAFA),
                       background: Colors.white,
-                      error: const Color(0xFFFF3D00),
+                      error: const Color(0xFFF44336),
                     ),
                     fontFamily: 'Quicksand',
                     textTheme: const TextTheme(
@@ -414,16 +414,16 @@ class MyApp extends StatelessWidget {
                 theme: ThemeData(
                   useMaterial3: true,
                   colorScheme: ColorScheme.fromSeed(
-                    seedColor: const Color(0xFF6200EA), // Deep purple
+                    seedColor: const Color(0xFF4CAF50), // Changed to green
                     brightness: Brightness.light,
-                    primary: const Color(0xFF6200EA),
+                    primary: const Color(0xFF4CAF50), // Changed to green
                     onPrimary: Colors.white,
-                    secondary: const Color(0xFFFFD600), // Bright yellow
+                    secondary: const Color(0xFFFF9800), // Changed to orange
                     onSecondary: Colors.black,
-                    tertiary: const Color(0xFF00B0FF), // Light blue
+                    tertiary: const Color(0xFF2196F3), // Changed to blue
                     surface: const Color(0xFFFAFAFA),
                     background: Colors.white,
-                    error: const Color(0xFFFF3D00),
+                    error: const Color(0xFFF44336),
                   ),
                   fontFamily: 'Quicksand',
                   textTheme: const TextTheme(
@@ -796,3 +796,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
